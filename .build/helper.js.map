@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../helper.ts"],
+  "sourcesContent": ["import { log } from \"console\"\n\nconst writeTwoDementionalArray = (array: Array<Array<Number>>, \n                                  name: string = 'Array'): void => {\n  log(`-----${name}----- \\n \\n`)\n  array.forEach(arr => {\n    let line = ''\n    arr.forEach(el => {\n      line += `${el}   `\n    })\n    log(`${line} \\n`) \n  })\n}\n\n\n\nexport {\n  writeTwoDementionalArray\n}"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA,qBAAoB;AAEpB,MAAM,2BAA2B,CAAC,OACA,OAAe,YAAkB;AACjE,0BAAI,QAAQ;AAAA;AAAA;AACZ,QAAM,QAAQ,SAAO;AACnB,QAAI,OAAO;AACX,QAAI,QAAQ,QAAM;AAChB,cAAQ,GAAG;AAAA;AAEb,4BAAI,GAAG;AAAA;AAAA;AAAA;",
+  "names": []
+}

@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "sources": ["../Apex.model.ts"],
+  "sources": ["../../models/Apex.model.ts"],
   "sourcesContent": ["export default class {\n  public index: number;\n\n  constructor(index: number) {\n    this.index = index;\n  }\n}"],
   "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAA,yBAAqB;AAAA,EACZ;AAAA,EAEP,YAAY,OAAe;AACzB,SAAK,QAAQ;AAAA;AAAA;",
   "names": []

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../scenes/practice1.scene.ts"],
+  "sourcesContent": ["import { log } from 'console' \n\nimport Graph from '../models/Graph.model'\nimport { writeTwoDementionalArray, question, readGraph } from '../helper'\n\nexport default function() {  \n  const graph = readGraph()\n  \n  \n  \n  writeTwoDementionalArray(graph.generateMatrixIncidents(), 'Matrix Incidents')\n  log('\\n')\n  writeTwoDementionalArray(graph.generateMatrixContiguity(), 'Matrix Contiguity')\n  \n  graph.listInfoApexes().forEach(info => {\n    log(\n      `Apex - ${info.apex.index},\\n\n      degree - ${info.degree},\\n\n      input - ${info.input},\\n\n      exit - ${info.exit},\\n\n      isolated - ${info.degree === 0},\\n\n      hanging - ${info.degree === 1},\\n\n      `\n    )\n  })\n}"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA,qBAAoB;AAGpB,oBAA8D;AAE/C,mCAAW;AACxB,QAAM,QAAQ;AAId,8CAAyB,MAAM,2BAA2B;AAC1D,0BAAI;AACJ,8CAAyB,MAAM,4BAA4B;AAE3D,QAAM,iBAAiB,QAAQ,UAAQ;AACrC,4BACE,UAAU,KAAK,KAAK;AAAA;AAAA,iBACT,KAAK;AAAA;AAAA,gBACN,KAAK;AAAA;AAAA,eACN,KAAK;AAAA;AAAA,mBACD,KAAK,WAAW;AAAA;AAAA,kBACjB,KAAK,WAAW;AAAA;AAAA;AAAA;AAAA;",
+  "names": []
+}

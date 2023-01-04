@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "sources": ["../Edge.model.ts"],
+  "sources": ["../../models/Edge.model.ts"],
   "sourcesContent": ["import Apex from \"./Apex.model\"\nexport default class {\n  public index: number\n  public from: Apex\n  public to: Apex\n\n  constructor(index: number, from: Apex, to: Apex) {\n    this.index = index\n    this.from = from\n    this.to = to\n  }\n}"],
   "mappings": ";;;;;;;AAAA;AAAA;AAAA;AACA,yBAAqB;AAAA,EACZ;AAAA,EACA;AAAA,EACA;AAAA,EAEP,YAAY,OAAe,MAAY,IAAU;AAC/C,SAAK,QAAQ;AACb,SAAK,OAAO;AACZ,SAAK,KAAK;AAAA;AAAA;",
   "names": []
